@@ -1,6 +1,61 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  background-color: white;
+  color: black;
 
-#heading
-{
-    text-align: center;
-    color: white;
+  
+}
+  #logo {
+
+}
+.navitem a {
+  text-decoration: none;
+  color: black;
+
+  
+  
+  
+  
+}
+.hero{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: aqua;
+}
+.heroitems {
+text-align: center;
+margin-top: 30%;
+margin-bottom: 20%;
+}
+#shop {
+  border-radius: 10px;
+  background-color: blue;
+}
+.Section {
+  display: flex;
+  flex-direction: row;
+}
+#navt {
+  text-align: center;
+  font-weight: bold;
+  height: 70px;
+  padding-top: 60px;
+}
+
+.pics {
+  
+}
+#discount{
+  font-style: italic;
+  color: blue;
+}
+#search {
+  border-radius: 10px;
+}
+#logodot {
+  color: aqua;
+  font-size: 50px;
 }
