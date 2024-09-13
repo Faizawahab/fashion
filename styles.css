@@ -7,6 +7,9 @@
   color: black;
   width: 100%;
   justify-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
 
 }
 
@@ -69,75 +72,223 @@
 
 .category {
   position: relative;
- 
-    width: 100%;
-  
+
+  width: 100%;
+
 }
 
-.category img{
+.category img {
   width: 100%;
 }
 
 .category-text {
   position: absolute;
-  top: 0; 
-  
-  
+  top: 0;
+
+
 }
 
 .category-texts {
-    position: absolute;
-    top: 0;
-    color: white; 
+  position: absolute;
+  top: 0;
+  color: white;
 }
 
 .categoryx {
-   position: relative; 
+  position: relative;
 }
 
 .category-textx {
-   position: absolute;
-  top: 0; 
+  position: absolute;
+  top: 0;
 }
+
 #stone {
   border-radius: 10px;
   font-weight: bold;
   font-size: larger;
-  
+
 }
+
 #outfit {
   background-color: yellow;
 }
+
 #coll {
   font: italic;
   color: blue;
-  
+
 }
+
 .herot {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  
+
 }
 
 .discount {
   position: relative;
 }
+
 .discount-text {
   position: relative;
   top: 0;
 }
+
 #dis {
   font: italic;
   color: blue;
 }
+
 #aba {
   font-weight: bold;
   font-size: larger;
 }
-/* .pics {
+
+.navt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+#latest {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  height: 50px;
+
+}
+
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.img {
+  text-align: center;
+}
+
+.background-img {
+  display: flex;
+  flex-direction: row;
+  background-color: #CFD6DC;
+}
+
+.find {
+  text-align: center;
+  padding-left: 200px;
+  padding-top: 200px;
+}
+
+#finds {
+  font-size: xx-large;
+}
+
+#design {
+  font-size: large;
+  color: palevioletred;
+  font-weight: bold;
+}
+
+.shop {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+
+}
+
+.best {
+  font-size: x-large;
+}
+
+.month {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.desin {
+  font-size: large;
+}
+.now {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.shops {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #CFD6DC;
+  height: 400px;
+}
+.bests{
+  font-size: x-large;
+  color: black;
+  padding-top: 150px;
+}
+.desins {
+  font-size: large;
+  color: black;
+}
+.news {
+  text-align: center;
+  padding-bottom: 150px;
+}
+.email {
+  align-content: center;
+}
+.button {
+  background-color: white;
+  border-radius: 30px;
+  width: 300px;
+  height: 50px;
+}
+.sho {
+  background-color: white;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  margin-left: -60px;
+  background-color: blue;
+  color: white;
+}
+.fin{
+  text-align: center;
+  padding-top: 120px;
+}
+.ship {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  /* background-color: aqua; */
+  margin: auto;
+  column-gap: 30px;
+  height: 80vh;
+  align-items: center;
   
-} */
+}
+.secure {
+  font-size: larger;
+}
+ .are {
+  font-size: large;
+ }
 #discount {
   font-style: italic;
   color: blue;
@@ -153,7 +304,18 @@
   color: aqua;
   font-size: 50px;
 }
-
+#logo-dots{
+  color: aqua;
+  font-size: 50px;
+}
+#logos{
+  font: bold;
+  
+}
+.list {
+  display: flex;
+  flex-direction: row;
+}
 #sign-in {
   border-radius: 10px;
   height: 30px;
