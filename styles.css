@@ -304,10 +304,7 @@
   color: aqua;
   font-size: 50px;
 }
-#logo-dots{
-  color: aqua;
-  font-size: 50px;
-}
+
 #logos{
   font: bold;
   
@@ -315,6 +312,7 @@
 .list {
   display: flex;
   flex-direction: row;
+  column-gap: 40px;
 }
 #sign-in {
   border-radius: 10px;
