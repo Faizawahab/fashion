@@ -1,3 +1,7 @@
+*{margin: 0;
+  padding: 0;
+
+}
 .nav {
   display: flex;
   flex-direction: row;
@@ -10,6 +14,7 @@
   position: fixed;
   left: 0;
   right: 0;
+  align-items: center;
 
 }
 
@@ -20,6 +25,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 2rem;
+  
 }
 
 #navlinks a {
